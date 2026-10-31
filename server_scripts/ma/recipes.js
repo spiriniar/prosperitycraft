@@ -1,0 +1,49 @@
+ServerEvents.recipes(event => {
+    [
+        'mysticalagriculture:blank_skull',
+        'mysticalagriculture:inferium_farmland',
+        'mysticalagriculture:inferium_farmland_till',
+        'mysticalagriculture:prudentium_farmland',
+        'mysticalagriculture:prudentium_farmland_till',
+        'mysticalagriculture:tertium_farmland',
+        'mysticalagriculture:tertium_farmland_till',
+        'mysticalagriculture:imperium_farmland',
+        'mysticalagriculture:imperium_farmland_till',
+        'mysticalagriculture:supremium_farmland',
+        'mysticalagriculture:supremium_farmland_till',
+        'mysticalagriculture:insanium_farmland',
+        'mysticalagriculture:insanium_farmland_till'
+    ].forEach((recipeID) => event.remove({id: recipeID}));
+    event.shaped(Item.of('mysticalagriculture:blank_skull',4),[
+        ' A ','AAA',' A '
+    ],{
+        A:'minecraft:bone_block'
+    })
+    event.shapeless('mysticalagriculture:inferium_farmland',[
+        'minecraft:farmland',
+        'kubejs:tier1_catalyst'
+    ])
+    event.shapeless('mysticalagriculture:inferium_farmland',[
+        '#forge:hoes',
+        'kubejs:tier1_catalyst',
+        'minecraft:dirt'
+    ]).damageIngredient('#forge:hoes',1)
+    event.shapeless('mysticalagriculture:prudentium_farmland',[
+        'minecraft:farmland',
+        'kubejs:tier2_catalyst'
+    ])
+    event.shapeless('mysticalagriculture:prudentium_farmland',[
+        '#forge:hoes',
+        'kubejs:tier2_catalyst',
+        'minecraft:dirt'
+    ]).damageIngredient('#forge:hoes',1)
+    event.shapeless('mysticalagriculture:tertium_farmland',[
+        'minecraft:farmland',
+        'kubejs:tier3_catalyst'
+    ])
+    event.shapeless('mysticalagriculture:tertium_farmland',[
+        '#forge:hoes',
+        'kubejs:tier3_catalyst',
+        'minecraft:dirt'
+    ]).damageIngredient('#forge:hoes',1)
+})

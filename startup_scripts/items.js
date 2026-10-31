@@ -1,0 +1,26 @@
+StartupEvents.registry('item', event =>{
+    event.create('tier0_catalyst').displayName('Base Catalyst')
+    event.create('tier1_catalyst').displayName('Inferium Catalyst')
+    event.create('tier2_catalyst').displayName('Prudentium Catalyst')
+    event.create('tier3_catalyst').displayName('Tertium Catalyst')
+
+    event.create('prosperous_iron').displayName('Prosperous Iron Ingot')
+    event.create('prosperous_iron_nugget').displayName('Prosperous Iron Nugget')
+    event.create('prosperous_gemstone').displayName('Prosperous Gemstone')
+    event.create('prosperous_gemstone_shard').displayName('Prosperous Gemstone Shard')
+
+    event.create('machine_components').displayName('Machine Components')
+    event.create('stilk','shovel').displayName('Stilk').texture('minecraft:item/stick').unstackable().maxDamage(1).rarity('rare')
+
+    event.create('quarry_blueprint').displayName('Quarry Blueprint')
+    event.create('quarry_putty').displayName('Quarry Putty')
+    event.create('right_click').displayName('Right Click')
+    event.create('mob_spawner_rod').displayName('Mob Spawner Rod').unstackable().maxDamage(15)
+    event.create('cobalt_ingot').displayName('Cobalt Ingot').tag('forge:ingots/cobalt').tag('forge:ingots')
+    event.create('cobalt_nugget').displayName('Cobalt Nugget').tag('forge:nuggets/cobalt').tag('forge:nuggets')
+    event.create('witched_circuit').displayName('Witched Electrical Circuit')
+    event.create('roman_vitriol').displayName('Roman Vitriol')
+    event.create('frozen_redstone').displayName('Frozen Destabilized Redstone')
+    event.create('redstone_crystal').displayName('Redstone Crystal')
+    event.create('stacks_of_coins').displayName('Stacks of Coins')
+})

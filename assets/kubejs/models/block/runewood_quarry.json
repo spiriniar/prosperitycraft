@@ -1,0 +1,8 @@
+{
+    "parent":"minecraft:block/cube_bottom_top",
+    "textures":{
+        "top":"kubejs:block/runewood_quarry_top",
+        "bottom":"kubejs:block/runewood_quarry_bottom",
+        "side":"kubejs:block/runewood_quarry"
+    }
+}
