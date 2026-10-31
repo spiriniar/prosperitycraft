@@ -1,0 +1,15 @@
+{
+    "type":"botanypots:soil",
+    "input":{
+        "item":"mysticalagriculture:inferium_farmland"
+    },
+    "display":{
+        "block":"mysticalagriculture:inferium_farmland"
+    },
+    "categories":[
+        "dirt",
+        "farmland",
+        "inferium"
+    ],
+    "growthModifier":1.50
+}
