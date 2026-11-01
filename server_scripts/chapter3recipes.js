@@ -237,7 +237,7 @@ ServerEvents.recipes(event => {
             item:"kubejs:mob_spawner_rod"
         }
     })
-    event.shaped(Item.of('malum:crude_scythe','{Enchantments:[{id:"kubejs:shatter",lvl:1s}]}'),[
+    event.shaped('malum:crude_scythe',[
         'AAB',
         ' CA',
         'C  '
@@ -1268,7 +1268,6 @@ ServerEvents.recipes(event => {
             item:"kubejs:stacks_of_coins"
         }
     })
-	//sapling:{item:"malum:runewood_sapling"},
     event.custom({
         type:"naturesaura:tree_ritual",
         ingredients:[
@@ -1298,7 +1297,7 @@ ServerEvents.recipes(event => {
             }
         ],
         sapling:{
-            item:"minecraft:oak_sapling"
+            item:"malum:runewood_sapling"
         },
         output:{
             item:"matc:tertium_crystal",
