@@ -3,6 +3,7 @@ StartupEvents.registry('item', event =>{
     event.create('tier1_catalyst').displayName('Inferium Catalyst')
     event.create('tier2_catalyst').displayName('Prudentium Catalyst')
     event.create('tier3_catalyst').displayName('Tertium Catalyst')
+    event.create('tier4_catalyst').displayName('Imperium Catalyst')
 
     event.create('prosperous_iron').displayName('Prosperous Iron Ingot')
     event.create('prosperous_iron_nugget').displayName('Prosperous Iron Nugget')

@@ -2,7 +2,7 @@ StartupEvents.registry("enchantment", event => {
     event.create('shatter')
     .weapon()
     .veryRare()
-    .maxLevel(1)
+    .maxLevel(4)
     .undiscoverable()
     .untradeable()
     .displayName("Shatter")
