@@ -13,8 +13,8 @@ StartupEvents.registry('item', event =>{
     event.create('machine_components').displayName('Machine Components')
     event.create('stilk','shovel').displayName('Stilk').texture('minecraft:item/stick').unstackable().maxDamage(1).rarity('rare')
 
-    event.create('quarry_blueprint').displayName('Quarry Blueprint')
-    event.create('quarry_putty').displayName('Quarry Putty')
+    event.create('quarry_blueprint').displayName('Runewood Quarry Blueprint')
+    event.create('quarry_putty').displayName('Hex Putty')
     event.create('right_click').displayName('Right Click')
     event.create('mob_spawner_rod').displayName('Mob Spawner Rod').unstackable().maxDamage(15)
     event.create('cobalt_ingot').displayName('Cobalt Ingot').tag('forge:ingots/cobalt').tag('forge:ingots')
@@ -24,4 +24,7 @@ StartupEvents.registry('item', event =>{
     event.create('frozen_redstone').displayName('Frozen Destabilized Redstone')
     event.create('redstone_crystal').displayName('Redstone Crystal')
     event.create('stacks_of_coins').displayName('Stacks of Coins')
+
+    event.create('alf_quarry_putty').displayName('Alf Putty')
+    event.create('dreamwood_quarry_blueprint').displayName('Dreamwood Quarry Blueprint')
 })
